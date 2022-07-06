@@ -1,0 +1,13 @@
+{
+"ipv6": false,
+"default-address-pools":
+[
+{"base":"10.51.88.0/22","size":26}
+],
+"log-driver": "json-file",
+"log-opts": {
+"max-size": "50m",
+"max-file": "5",
+"compress": "true"
+}
+}
